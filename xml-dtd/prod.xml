@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE products [
+	<!ELEMENT products (product+)>
+	<!ELEMENT product (model,colour,oc,price,year,inch,battery,memory)>
+	<!ATTLIST product id CDATA #REQUIRED>
+	<!ATTLIST product kind (laptop|phone|tablet) #REQUIRED>
+	<!ELEMENT model (#PCDATA)>
+    <!ELEMENT colour (#PCDATA)>
+    <!ELEMENT oc (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+	<!ELEMENT year (#PCDATA)>
+	<!ELEMENT inch (#PCDATA)>
+	<!ELEMENT battery (#PCDATA)>
+    <!ELEMENT memory (#PCDATA)>
+]>
+    <products>
+        <product id="1" kind="phone">
+			<model>Samsung Galaxy A8</model>
+            <colour>black</colour>
+            <oc>Android 8.0</oc>
+            <price>380 usd</price>
+            <year>2018</year>
+            <inch>5.6</inch>
+            <battery>3000 mAa</battery>
+            <memory>4/32 GB </memory>
+        </product>
+       <product id="3" kind="phone">
+			<model>Xiaomi Redmi Note 7 </model>
+            <colour>gold</colour>
+            <oc>Android 9.0</oc>
+            <price>299 usd</price>
+            <year>2018</year>
+            <inch>6.3</inch>
+            <battery>4000 mAa</battery>
+            <memory>4/64 GB </memory>
+        </product>
+       <product id="5" kind="tablet">
+			<model>Acer Iconia One 10 B3-A42</model>
+            <colour>white</colour>
+            <oc>Android 7.0</oc>
+            <price>249 usd</price>
+            <year>2017</year>
+            <inch>10.1</inch>
+            <battery>6100 mAa</battery>
+            <memory>2/16 GB </memory>
+        </product>
+        <product id="2" kind="tablet">
+			<model>Apple iPad 2018 32GB Wi-Fi</model>
+            <colour>white</colour>
+            <oc>iOC 11</oc>
+            <price>449 usd</price>
+            <year>2018</year>
+            <inch>9.7</inch>
+            <battery>30 Vta</battery>
+            <memory>2/32 GB </memory>
+        </product>
+        <product id="4" kind="laptop">
+			<model>Asus VivoBook X540UB-DM287</model>
+            <colour>grey</colour>
+            <oc>Windows 10</oc>
+            <price>369 usd</price>
+            <year>2017</year>
+            <inch>15.6</inch>
+            <battery>33 Vta</battery>
+            <memory>4/500 GB </memory>
+        </product>
+        <product id="6" kind="laptop">
+			<model>HP 15-ra023ur </model>
+            <colour>black</colour>
+            <oc>Windows 10</oc>
+            <price>399 usd</price>
+            <year>2017</year>
+            <inch>15.6</inch>
+            <battery>31 Vta</battery>
+            <memory>4/500 GB </memory>
+        </product>
+    </products>
